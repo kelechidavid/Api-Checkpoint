@@ -1,0 +1,29 @@
+body {
+  padding: 20px 100px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+  color: whitesmoke;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgba(209, 113, 23, 0.767) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(146, 77, 12) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(3, 28, 46) 66%
+  );
+  font-family: "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+hr {
+  width: 50%;
+}
+#root > div > div > h1 {
+  margin-bottom: 100px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
